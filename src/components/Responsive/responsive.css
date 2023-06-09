@@ -18,10 +18,10 @@
         width: 10%;
     }
     .content_main {
-        left: 50%;
-        -webkit-transform: translate(-50%,-85%);
-        transform: translate(-50%,-85%);
-        top: 65%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-85%);
+    transform: translate(-50%,-85%);
+    top: 65%;
     }
     .text_main h1 {
         font-size: 25px;
@@ -50,10 +50,10 @@
         width: 35%;
     }
     .FollowUs p {
-        padding: 0px;
+        padding: 0px !important;
     }
     .FollowUs_img img {
-        width: 15%;
+        width: 15%; 
     }
     .logofooter_img img {
         width: 32%;
