@@ -1,4 +1,4 @@
-@media (min-width:374px) and (max-width:479px) {
+@media (min-width:375px) and (max-width:479px) {
     .Nav-upTo{
         display: none;
     }
@@ -18,8 +18,10 @@
         width: 10%;
     }
     .content_main {
-        transform: translate(-50%, -85%);
-        width: 100%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-85%);
+        transform: translate(-50%,-85%);
+        top: 65%;
     }
     .text_main h1 {
         font-size: 25px;
@@ -48,7 +50,6 @@
         width: 35%;
     }
     .FollowUs p {
-        font-size: 14px;
         padding: 0px;
     }
     .FollowUs_img img {
