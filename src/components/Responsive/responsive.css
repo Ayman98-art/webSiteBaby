@@ -1,111 +1,4 @@
-@media (min-width:375px) and (max-width:479px) {
-    .Nav-upTo{
-        display: none;
-    }
-    .bg_nav{
-        height: auto;
-    }
-    .Navbar {
-        flex-direction: row !important;
-    }
-    .nav-collapse{
-        text-align: initial;
-    }
-    .active::before {
-        width: 10%;
-    }
-    .link_nav:hover:after {
-        width: 10%;
-    }
-    .content_main {
-    left: 50%;
-    -webkit-transform: translate(-50%,-85%);
-    transform: translate(-50%,-85%);
-    top: 65%;
-    }
-    .text_main h1 {
-        font-size: 25px;
-    }
-    .paragraf_main p {
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-    .tree_img {
-        width: 100%;
-    }
-    .tree_img img{
-        width: 15%;
-    }
-    .btn_main {
-        width: 20%;
-        height: 35px;
-    }
-    .col-mb{
-        margin-bottom: 30px;
-    }
-    .group-content_img {
-        margin-bottom: 15px;
-    }
-    .btn-img{
-        width: 35%;
-    }
-    .FollowUs p {
-        padding: 0px !important;
-    }
-    .FollowUs_img img {
-        width: 15%; 
-    }
-    .logofooter_img img {
-        width: 32%;
-    }
-    .col-mb-15{
-        margin-bottom: 32px;
-    }
-    .input-E {
-        width: 50%;
-    }
-    .SocialMedia-ml {
-        margin-left: 0px;
-    }
-    .smallBAby{
-        margin-bottom: 15px;
-    }
-    .sengle-img img{
-        width: 100%;
-        height: auto;
-    }
-    .CircelBlog_text {
-        margin-left: 15px;
-    }
-    .CircelBlog {
-        width: 100%;
-        text-align: left;
-        margin-left: 0px;
-    }
-    .CircelBlog img{
-        width: 50%;
-    }
-    .RestContent_content, .RestContent_Social {
-        margin-left: 15px;
-    }
-    .mt-05{
-        margin-top: 25px;
-    }
-    .RestContent_content input {
-        width: 50%;
-    }
-    .CardProduct_img img {
-        width: 100%;
-        height: auto;
-    }
-    .w-auto-xScreen{
-        display: none;
-    }
-    .sengle-img{
-        margin-bottom: 15px;
-    }
-}
-
+/* Ipad */
 @media (min-width:480px) and (max-width:600px) {
     .Nav-upTo{
         display: none;
@@ -314,6 +207,7 @@
     }
 }
 
+/* Labtop */
 @media (min-width:601px) and (max-width:768px) {
     .content_main {
         transform: translate(-50%, -92%);
@@ -463,6 +357,7 @@
     
 }
 
+/* full screen */
 @media (min-width:999px) and (max-width:10000000px) {
     .content_main {
         transform: translate(-50%, -120%);
