@@ -1,0 +1,15 @@
+.ComColOne{
+    text-align: center;
+}
+.ComColOne h5{
+    padding-bottom: 18px;
+}
+.ComColOne a{
+    display: block;
+    margin: 8px 0px;
+    color: #abb8c3;
+    transition: all .4s;
+}
+.ComColOne a:hover{
+    color: #000;
+}

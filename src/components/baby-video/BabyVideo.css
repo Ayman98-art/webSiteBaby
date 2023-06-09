@@ -1,0 +1,22 @@
+.BabyVideo-img{
+    background-image: url('../../images//images-about/about-baby.webp');
+    height: 70vh;
+    background-repeat: no-repeat;
+    margin: 0px 43px 0px 43px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 15px;
+}
+
+.BabyVideo-img h3{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 32px;
+    margin: 0px 20px;
+}
+
+.BabyVideo-img a{
+    margin-bottom: 2px;
+}
+

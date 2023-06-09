@@ -1,0 +1,49 @@
+.mt-70{
+    margin-top: 70px !important;
+}
+
+.mb-70{
+    margin-bottom: 70px !important;
+}
+
+.Total_Price h2{
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.Total_Price span{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.Total_Price span::selection{
+    background-color: transparent;
+    color: #000;
+}
+
+.trTable-product{
+    font-size: 18px;
+}
+
+.trTable{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.h4_style{
+    font-size: 42px;
+}
+
+.tdBtn{
+    text-align: center;
+    padding-top: 30px !important;
+}
+
+.tdBtn button{
+    padding: 5px 30px;
+}
+
+.mt-30{
+    margin-top: 95px;
+}

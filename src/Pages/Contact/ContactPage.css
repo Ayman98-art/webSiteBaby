@@ -1,0 +1,12 @@
+.conatct-img{
+    background-image: url('../../images/images-contact/contact-img-page.webp');
+    height: 60vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pb-50{
+    padding-bottom: 90px;
+}

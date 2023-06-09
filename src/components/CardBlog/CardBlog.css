@@ -1,0 +1,64 @@
+.CardBlog-img{
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.CardBlog-img img{
+    width: 100%;
+    height: auto;
+    filter: blur(.8px);
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.CardBlog:hover img{
+    filter: blur(0px);
+}
+
+.CardBlog-head h1{
+    font-size: 38px;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+.CardBlog-para article{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #919191;
+    line-height: 26px;
+    position: relative;
+}
+
+.CardBlog-para article::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #1a1a1a;
+    top: -6px;
+    left: -9px;
+}
+
+.btn_main--blog{
+    background-color: #e7e6e6 !important;
+    color: #1a1a1a !important;
+    letter-spacing: 2px;
+    border: 0 !important;
+    border-radius: 0 !important;
+    width: 35%;
+    height: 70px;
+}
+
+.btn_main--blog:hover{
+    background-color: #b3b2b2;
+    color: #1a1a1a;
+}
+
+.btn_main--blog:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #c5c4c4;
+    color: #1a1a1a;
+}

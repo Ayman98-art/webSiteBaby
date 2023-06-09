@@ -1,0 +1,18 @@
+.RestShop_CATEGORIES ul li{
+    margin-left: -15px;
+    color: #717171;
+    transition: all .4s;
+}
+
+.RestShop_CATEGORIES ul li:hover{
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+.RestShop_social--h4{
+    margin-bottom: -55px;
+}
+
+.RestShop_sreach{
+    margin-left: -5px;
+}

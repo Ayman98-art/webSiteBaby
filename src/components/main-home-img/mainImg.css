@@ -1,0 +1,9 @@
+.mainImg{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.subImg{
+    background-color: #fff;
+    width: 100%;
+}

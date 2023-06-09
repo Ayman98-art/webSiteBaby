@@ -1,0 +1,16 @@
+.SocialMedia{
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.SocialMedia_icon svg{
+    width: 20px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.SocialMedia_icon svg:hover{
+    filter: opacity(.6);
+}

@@ -1,0 +1,18 @@
+.SengleImg{
+    overflow: hidden;
+}
+
+.sengle-img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.sengle-img img{
+    width: 100%;
+    height: auto;
+    transition: all .4s;
+}
+
+.SengleImg:hover img{
+    transform: scale(1.1);
+}

@@ -1,0 +1,381 @@
+@media (min-width:480px) and (max-width:600px) {
+    .Nav-upTo{
+        display: none;
+    }
+    .bg_nav{
+        height: auto;
+    }
+    .Navbar {
+        flex-direction: row !important;
+    }
+    .nav-collapse{
+        text-align: initial;
+    }
+    .active::before {
+        width: 10%;
+    }
+    .link_nav:hover:after {
+        width: 10%;
+    }
+    .content_main {
+        transform: translate(-50%, -85%);
+        width: 100%;
+    }
+    .text_main h1 {
+        font-size: 25px;
+    }
+    .paragraf_main p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .tree_img {
+        width: 100%;
+    }
+    .tree_img img{
+        width: 15%;
+    }
+    .btn_main {
+        width: 20%;
+        height: 35px;
+    }
+    .col-mb{
+        margin-bottom: 30px;
+    }
+    .group-content_img {
+        margin-bottom: 15px;
+    }
+    .btn-img{
+        width: 35%;
+    }
+    .FollowUs p {
+        font-size: 14px;
+        padding: 0px;
+    }
+    .FollowUs_img img {
+        width: 15%;
+    }
+    .logofooter_img img {
+        width: 32%;
+    }
+    .col-mb-15{
+        margin-bottom: 32px;
+    }
+    .input-E {
+        width: 50%;
+    }
+    .SocialMedia-ml {
+        margin-left: 0px;
+    }
+    .smallBAby{
+        margin-bottom: 15px;
+    }
+    .sengle-img img{
+        width: 100%;
+        height: auto;
+    }
+    .CircelBlog_text {
+        margin-left: 15px;
+    }
+    .CircelBlog {
+        width: 100%;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .CircelBlog img{
+        width: 50%;
+    }
+    .RestContent_content, .RestContent_Social {
+        margin-left: 15px;
+    }
+    .mt-05{
+        margin-top: 25px;
+    }
+    .RestContent_content input {
+        width: 50%;
+    }
+    .CardProduct_img img {
+        width: 100%;
+        height: auto;
+    }
+    .w-auto-xScreen{
+        display: none;
+    }
+    .sengle-img{
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width:601px) and (max-width:825px) {
+    .Nav-upTo{
+        display: none;
+    }
+    .bg_nav{
+        height: auto;
+    }
+    .Navbar {
+        flex-direction: row !important;
+    }
+    .nav-collapse{
+        text-align: initial;
+    }
+    .active::before {
+        width: 5%;
+    }
+    .link_nav:hover:after {
+        width: 5%;
+    }
+    .content_main {
+        transform: translate(-50%, -100%);
+        width: 100%;
+    }
+    .text_main h1 {
+        font-size: 42px;
+    }
+    .paragraf_main p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .btn_main {
+        width: 22%;
+        height: 50px;
+    }
+    .col-mb{
+        margin-bottom: 30px;
+    }
+    .group-content_img {
+        margin-bottom: 15px;
+    }
+    .btn-img{
+        width: 35%;
+    }
+    .FollowUs p {
+        font-size: 14px;
+        padding: 0px;
+    }
+    .FollowUs_img img {
+        width: 15%;
+    }
+    .logofooter_img img {
+        width: 32%;
+    }
+    .col-mb-15{
+        margin-bottom: 32px;
+    }
+    .input-E {
+        width: 50%;
+    }
+    .SocialMedia-ml {
+        margin-left: 0px;
+    }
+    .smallBAby{
+        margin-bottom: 15px;
+    }
+    .sengle-img img{
+        width: 100%;
+        height: auto;
+    }
+    .CircelBlog_text {
+        margin-left: 15px;
+    }
+    .CircelBlog {
+        width: 100%;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .CircelBlog img{
+        width: 50%;
+    }
+    .RestContent_content, .RestContent_Social {
+        margin-left: 15px;
+    }
+    .mt-05{
+        margin-top: 25px;
+    }
+    .RestContent_content input {
+        width: 75%;
+    }
+    .RestContent_content--none{
+        display: none;
+    }
+    .CardProduct_img img {
+        width: 100%;
+        height: auto;
+    }
+    .sengle-img{
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width:601px) and (max-width:768px) {
+    .content_main {
+        transform: translate(-50%, -92%);
+        width: 100%;
+    }
+    .text_main h1 {
+        font-size: 25px;
+    }
+    .paragraf_main p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .tree_img {
+        width: 100%;
+    }
+    .tree_img img{
+        width: 15%;
+    }
+    .smallBAby{
+        margin-bottom: 15px;
+    }
+    .sengle-img img{
+        width: 100%;
+        height: auto;
+    }
+    .CircelBlog_text {
+        margin-left: 15px;
+    }
+    .CircelBlog {
+        width: 100%;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .CircelBlog img{
+        width: 50%;
+    }
+    .RestContent_content, .RestContent_Social {
+        margin-left: 15px;
+    }
+    .mt-05{
+        margin-top: 25px;
+    }
+    .RestContent_content input {
+        width: 75%;
+    }
+    .RestContent_content--none{
+        display: none;
+    }
+}
+
+@media (min-width:826px) and (max-width:998px) {
+    .bg_nav{
+        height: auto;
+    }
+    .Navbar {
+        flex-direction: row !important;
+    }
+    .nav-collapse{
+        text-align: initial;
+    }
+    .active::before {
+        width: 7%;
+    }
+    .link_nav:hover:after {
+        width: 7%;
+    }
+    .content_main {
+        transform: translate(-50%, -100%);
+        width: 100%;
+    }
+    .text_main h1 {
+        font-size: 52px;
+    }
+    .paragraf_main p {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .btn_main {
+        width: 20%;
+        height: 50px;
+    }
+    .col-mb{
+        margin-bottom: 30px;
+    }
+    .group-content_img {
+        margin-bottom: 15px;
+    }
+    .btn-img{
+        width: 35%;
+    }
+    .FollowUs p {
+        font-size: 14px;
+        padding: 0px;
+    }
+    .FollowUs_img img {
+        width: 15%;
+    }
+    .logofooter_img img {
+        width: 32%;
+    }
+    .col-mb-15{
+        margin-bottom: 32px;
+    }
+    .input-E {
+        width: 50%;
+    }
+    .SocialMedia-ml {
+        margin-left: 0px;
+    }
+    .smallBAby{
+        margin-bottom: 15px;
+    }
+    .sengle-img{
+        margin-bottom: 15px;
+    }
+    .sengle-img img{
+        width: 100%;
+        height: auto;
+    }
+    .CircelBlog_text {
+        margin-left: 15px;
+    }
+    .CircelBlog {
+        width: 100%;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .CircelBlog img{
+        width: 50%;
+    }
+    .RestContent_content, .RestContent_Social {
+        margin-left: 15px;
+    }
+    .mt-05{
+        margin-top: 25px;
+    }
+    .RestContent_content input {
+        width: 75%;
+    }
+    .RestContent_content--none{
+        display: none;
+    }
+    .CardProduct_img img {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media (min-width:999px) and (max-width:10000000px) {
+    .content_main {
+        transform: translate(-50%, -120%);
+        width: 100%;
+    }
+    .text_main h1 {
+        font-size: 52px;
+    }
+    .paragraf_main p {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .sengle-img img{
+        width: 100%;
+        height: 220px;
+    }
+    .mb-04{
+        margin-bottom: 0;
+    }
+    .RestContent_content--none{
+        display: none;
+    }
+}
+

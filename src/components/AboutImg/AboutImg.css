@@ -1,0 +1,14 @@
+.about-img{
+    background-repeat: no-repeat;
+    background-image: url('../../images/images-about/about-page.webp');
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-img h1{
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-size: 50px;
+}

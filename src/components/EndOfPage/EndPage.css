@@ -1,0 +1,16 @@
+.EndPage{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+
+.EndPage span{
+    font-size: 17px;
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.EndPage span:hover{
+    color: #ccc;
+}

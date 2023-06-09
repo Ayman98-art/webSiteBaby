@@ -1,0 +1,42 @@
+.btn_main--form{
+    background-color: #e7e6e6 !important;
+    color: #1a1a1a !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    width: 15%;
+}
+
+.btn_main--form:hover{
+    background-color: #c5c4c4 !important;
+    color: #1a1a1a !important;
+}
+
+.btn_main--form:focus{
+    background-color: #c5c4c4;
+    color: #1a1a1a;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.row-style{
+    width: 75% !important;
+    margin: auto !important;
+}
+
+.textarea-style{
+    width: 74% !important;
+    margin:auto !important;
+}
+
+.radius-none{
+    border-radius: 0 !important;
+    cursor: pointer;
+}
+
+.radius-none:focus{
+    border-radius: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    border-color: #1a1a1a !important;
+}

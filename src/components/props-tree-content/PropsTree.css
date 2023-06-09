@@ -1,0 +1,30 @@
+.FollowUs_img{
+    width: 100%;
+}
+
+.FollowUs_img img{
+    filter: invert(1);
+    width: 8%;
+}
+
+.FollowUs h2{
+    font-size: 42px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS';
+    margin: 15px 0px;
+}
+
+.FollowUs h2 a,
+.FollowUs h2 a:hover{
+    color: #000;
+}
+
+.FollowUs p{
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: #8b8787;
+    margin: 0;
+    padding: 0px 250px;
+}

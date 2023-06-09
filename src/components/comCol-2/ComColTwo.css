@@ -1,0 +1,52 @@
+.ComColTwo{
+    text-align: center;
+}
+
+.ComColTwo h5{
+    padding-bottom: 18px;
+}
+
+.ComColTwo p{
+    color: #abb8c3;
+    transition: all .4s;
+}
+
+.ComColTwo p:hover{
+    color: #000;
+}
+
+.input-E{
+    width: 85%;
+}
+
+.input-email{
+    border: 0 !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #ccc !important;
+    background-color: transparent;
+    transition: all .4s;
+}
+
+.input-email:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+    border-bottom: 1px solid #ccc !important;
+    border-radius: 0 !important;
+}
+
+.news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit{
+    margin-left: -20px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.submit:hover{
+    transform: translateY(-5px);
+}

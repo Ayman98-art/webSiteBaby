@@ -1,0 +1,28 @@
+.about-img{
+    height: 60vh;
+    background-image: url('../../images/images-about/about-page.webp');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pb-70{
+    padding-bottom: 70px;
+}
+
+.pt-70{
+    padding-top: 32px;
+}
+
+.meatRoom img{
+    height: 280px;
+}
+
+.smallBAby img{
+    height: 260px;
+}
+
+.smallBAby{
+    margin-bottom: 15px;
+}

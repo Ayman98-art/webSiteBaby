@@ -1,0 +1,46 @@
+.RestContent_content,
+.RestContent_Social{
+    width: 75%;
+    margin-left: 62px;
+    text-align: left;
+}
+
+.RestContent_content span{
+    font-size: 17px;
+    color: #919191;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all .4s;
+}
+
+.RestContent_content span:hover{
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.RestContent_Social h4{
+    margin-top: 28px;
+    margin-bottom: -62px;
+}
+
+.SocialMedia-ml{
+    margin-left: -70px;
+}
+
+.RestContent_content input{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #919191;
+    cursor: pointer;
+}
+
+.RestContent_content input:focus{
+    border-radius: 0;
+    outline: #919191;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.mt-05{
+    margin-top: 40px;
+}

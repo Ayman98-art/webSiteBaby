@@ -1,0 +1,35 @@
+.group-content{
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+}
+
+.group-content_img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.group-content_img img{
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: all .4s;
+}
+
+.group-content:hover img{
+    transform: scale(1.05);
+}
+
+.btn-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    background-color: #ffffff !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-img:hover,.btn-img:focus{
+    background-color: #ffffff !important;
+}

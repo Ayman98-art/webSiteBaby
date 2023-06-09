@@ -1,0 +1,52 @@
+.CircelBlog{
+    width: 100%;
+    text-align: center;
+    margin-left: 32px;
+}
+.CircelBlog img{
+    width: 75%;
+    height: auto;
+}
+.CircelBlog_text{
+    width: 75%;
+    margin-left: 62px;
+    margin-top: 32px;
+    text-align: left;
+}
+.CircelBlog_text ul li{
+    margin-left: -32px;
+    color: #919191;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.CircelBlog_text ul li:hover{
+    color: #1a1a1a;
+}
+
+.CircelBlog_text h3{
+    color: #1a1a1a;
+    font-size: 28px;
+}
+
+.CircelBlog_text p{
+    font-size: 15px;
+    color: #919191;
+}
+
+.m-change-1{
+    margin-bottom: 15px;
+}
+.m-change-2{
+    margin-bottom: -5px;
+}
+.m-change-3{
+    margin-bottom: 15px;
+}
+.m-change-4{
+    margin-bottom: -5px;
+}
+
+.CircelBlog_text span{
+    margin: 0px 5px;
+}

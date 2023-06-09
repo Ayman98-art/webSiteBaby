@@ -1,0 +1,17 @@
+.about-head h2{
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.about-article_first,
+.about-article_second{
+    font-size: 20px;
+    color: #a19d9d;
+    padding: 0px 70px;
+}
+.about-article_first{
+    margin-bottom: 30px;
+}
+.about-img-tree img{
+    filter: invert(1);
+}

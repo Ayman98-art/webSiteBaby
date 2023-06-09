@@ -1,0 +1,16 @@
+.bg-light-img{
+    height: 25vh;
+    background-image: url('../../images/bg-light.webp');
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chracterImg img{
+    transition: all .4s;
+    cursor: pointer;
+}
+.chracterImg img:hover{
+    filter: opacity(.5);
+}

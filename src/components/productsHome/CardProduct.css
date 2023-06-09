@@ -1,0 +1,87 @@
+.CardProduct{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    border: 1px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+.cursour{
+    cursor: pointer;
+}
+
+.CardProduct_img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.CardProduct_img img{
+    width: 100%;
+    height: 300px;
+    transition: all .4s;
+}
+.CardProduct:hover img{
+    transform: scale(1.05);
+}
+
+.CardProduct_addToCart{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: visibility .4s ;
+    transition: opacity .4s ;
+}
+
+.btn_addToCart{
+    width: 120px !important;
+    margin: auto !important;
+    height: 62px !important;
+    border-radius: 0px !important;
+    font-weight: 600 !important;
+    background-color: #717171 !important;
+    border-color: transparent !important;
+}
+
+btn_addToCart :hover{
+    color: #000000 !important;
+}
+
+btn_addToCart:focus{
+    background-color: #929292 !important;
+    color: #000000 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.CardProduct:hover .CardProduct_addToCart{
+    visibility: visible;
+    opacity: 1;
+}
+
+.CardProduct_head h3{
+    color: #000000;
+    font-family: "Poppins";
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.CardProduct:hover .CardProduct_head h3{
+    color: #717171;
+}
+
+.CardProduct_head p{
+    color: #717171;
+    font-family: "Inconsolata", Sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.CardProduct:hover .CardProduct_head p{
+    color: #000000;
+}

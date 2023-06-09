@@ -1,0 +1,16 @@
+.WORK_MODE{
+    color: #9e9c9c;
+}
+.MODE{
+    color: #a19f9f;
+    transition: all .4s;
+}
+.MODE:hover{
+    color: #1a1a1a;
+}
+.pb-70{
+    padding-bottom: 100px;
+}
+.mb-04{
+    margin-bottom: 40px;
+}

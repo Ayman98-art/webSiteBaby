@@ -1,0 +1,8 @@
+.flex-direction{
+    display: flex;
+    flex-direction: column;
+}
+
+.mar-bot{
+    margin-top: 18px;
+}
