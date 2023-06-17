@@ -13,21 +13,6 @@ function BasicNav() {
 
   const cart = useSelector((state)=> state.cart )
 
-  let moveLinks = document.querySelectorAll(".link_nav");
-  
-  moveLinks.forEach((link)=>{
-    link.addEventListener("click", removeActive)
-  })
-
-  function removeActive(){
-    moveLinks.forEach((link)=>{
-      link.classList.remove("active");
-      this.classList.add("active");
-      console.log(this);
-    })
-  }
-
-
   return (
   <>
     <Navbar className='bg_nav' expand="lg">
@@ -38,7 +23,7 @@ function BasicNav() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className='nav-collapse'>
             <Nav className="mx-auto my-2">
-              <Link className="mx-4 link_nav active" to="/">HOME</Link>
+              <Link className="mx-4 link_nav" to="/">HOME</Link>
               <Link className="mx-4 link_nav" to="/shop">SHOP</Link>
               <Link className="mx-4 link_nav" to="/about">ABOUT</Link>
               <Link className="mx-4 link_nav" to="/blog">BLOG</Link>
